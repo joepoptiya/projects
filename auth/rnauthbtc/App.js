@@ -51,9 +51,7 @@ const App = () => {
   GoogleSignin.configure({
     webClientId:
       // Android
-      //'1011840353117-nb14k1mv796clus774fsv8lrpqqb7jl2.apps.googleusercontent.com',
       // ios
-      '1011840353117-d4esqe9f2t1qgcn88uaeb2q14mr4trb9.apps.googleusercontent.com',
   });
 
   const AuthProviderType = {
